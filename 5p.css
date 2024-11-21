@@ -1,0 +1,96 @@
+*{
+    margin: 0;;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    color: rgb(225, 225, 225);
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continer{
+   background-color:olivedrab;
+   width: 600px;
+   height: 600px;
+   position: relative;
+
+}
+.tool{
+
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.form-group{
+
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form-group label{
+    color: aqua;
+
+}
+
+ input {
+    width: 100%;
+    padding: 0px 20px;
+
+}
+label{
+    width: 100%;
+    padding: 0px 20px;
+
+}
+textarea{
+    width: 90%;
+    height:100px;
+    padding: 0px 20px;
+    border: 3px double white;
+    background-color: black;
+}
+button{
+    width: 200px;
+    height: 35px;
+    color: black;
+    background-color: olivedrab;
+    border: 3px groove olive;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.form-group label span{
+    margin-left: 10px;
+    color: aqua;
+   
+}
+.form-group textarea{
+    color: aqua;
+    font-size: 20px;
+}
+.form-group #sel #co{
+    color: black;
+}
